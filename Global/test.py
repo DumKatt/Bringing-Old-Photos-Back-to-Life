@@ -152,6 +152,7 @@ if __name__ == "__main__":
         ### Necessary input
 
         try:
+            print("Inference input is %s", input)
             generated = model.inference(input, mask)
         except Exception as e:
             print("Skip %s" % (input_name))
