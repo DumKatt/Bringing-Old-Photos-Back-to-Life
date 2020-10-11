@@ -153,7 +153,7 @@ if __name__ == "__main__":
 
         try:
             generated = model.inference(input, mask)
-        except Exception as e::
+        except Exception as e:
             print("Skip %s" % (input_name))
             print("Excetion that occured is %s",e)
             continue
